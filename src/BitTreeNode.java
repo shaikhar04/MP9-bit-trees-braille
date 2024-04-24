@@ -6,20 +6,7 @@
  * @author Arsal Shaikh
  * @author Samuel A. Rebelsky
  */
-public class BitTreeNode {
-  // +--------+------------------------------------------------------------
-  // | Fields |
-  // +--------+
+public interface BitTreeNode {
+  // TODO
 
-
-  // +--------------+------------------------------------------------------
-  // | Constructors |
-  // +--------------+
-
-
-  // +---------+-----------------------------------------------------------
-  // | Methods |
-  // +---------+
-
-  
-} // class BitTreeNode
+} // interface BitTreeNode
