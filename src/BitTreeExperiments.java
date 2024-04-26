@@ -19,7 +19,7 @@ public class BitTreeExperiments {
     pen.println("------------------------------------------------");
     BitTree treeLoad = new BitTree(6);
     try {
-    InputStream source = new FileInputStream("src/treeMappings.txt");
+    InputStream source = new FileInputStream("src/BrailleToASCII.txt");
     treeLoad.load(source);
       
     } catch (FileNotFoundException e) {

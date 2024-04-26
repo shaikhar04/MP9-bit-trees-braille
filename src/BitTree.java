@@ -5,9 +5,7 @@ import java.util.NoSuchElementException;
 
 
 /**
- * TODO Title.
- *
- * TODO description.
+ * Implements the class for Binary Tree and its methods.
  * 
  * @author Arsal Shaikh
  * @author Samuel A. Rebelsky
@@ -179,7 +177,7 @@ public class BitTree {
                     nextChar = (char) input;
                     
                     // Break condition
-                    if (nextChar == '\n') {
+                    if (nextChar == '\n' || input == -1) {
                         break;
                     }
 
